@@ -1,15 +1,16 @@
 /* resume.css */
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
     color: #333;
+    background: #f4f4f9;
 }
 
 header {
-    background: #333;
+    background: #6a5acd;
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -17,6 +18,7 @@ header {
 
 header h1 {
     margin: 0;
+    font-size: 2.5em;
 }
 
 header p {
@@ -26,6 +28,9 @@ header p {
 .container {
     width: 80%;
     margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .resume-section {
@@ -33,24 +38,25 @@ header p {
 }
 
 h2 {
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid #6a5acd;
     padding-bottom: 5px;
     margin-bottom: 10px;
+    color: #6a5acd;
 }
 
 h3 {
     margin-top: 20px;
-    color: #555;
+    color: #333;
 }
 
 h4 {
     margin-top: 10px;
-    color: #777;
+    color: #555;
 }
 
 ul {
-    list-style-type: none;
-    padding: 0;
+    list-style-type: disc;
+    padding-left: 20px;
 }
 
 ul li {
@@ -67,7 +73,8 @@ a:hover {
 }
 
 footer {
-    background: #f1f1f1;
+    background: #6a5acd;
+    color: #fff;
     padding: 10px 0;
     text-align: center;
 }
